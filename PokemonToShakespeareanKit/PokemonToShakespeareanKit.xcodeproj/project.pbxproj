@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7D8C2FA25ACA9AF00F73532 /* PokemonToShakespeareanKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8C2F925ACA9AF00F73532 /* PokemonToShakespeareanKitTests.swift */; };
+		E7D8C30A25ACB02800F73532 /* PokeApiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8C30925ACB02800F73532 /* PokeApiTest.swift */; };
+		E7D8C30C25ACBE1E00F73532 /* getPokeApiSpecies.json in Resources */ = {isa = PBXBuildFile; fileRef = E7D8C30B25ACBE1E00F73532 /* getPokeApiSpecies.json */; };
+		E7D8C31425ACD3C400F73532 /* getPokemonResource.json in Resources */ = {isa = PBXBuildFile; fileRef = E7D8C31325ACD3C400F73532 /* getPokemonResource.json */; };
+		E7D8C31925ACE3AC00F73532 /* ShakespeareTranslatorAPITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8C31825ACE3AC00F73532 /* ShakespeareTranslatorAPITest.swift */; };
+		E7D8C31D25ACE84100F73532 /* shakespeareResult.json in Resources */ = {isa = PBXBuildFile; fileRef = E7D8C31C25ACE84100F73532 /* shakespeareResult.json */; };
+		E7D8C38925ACF84700F73532 /* PokemonToShakespeareanKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D8C38025ACF84700F73532 /* PokemonToShakespeareanKit.framework */; };
+		E7D8C39725ACF8C800F73532 /* PokemonToShakespeareanKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8C2F925ACA9AF00F73532 /* PokemonToShakespeareanKitTests.swift */; };
+		E7D8C39825ACF8C800F73532 /* PokeApiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8C30925ACB02800F73532 /* PokeApiTest.swift */; };
+		E7D8C39925ACF8C800F73532 /* getPokeApiSpecies.json in Resources */ = {isa = PBXBuildFile; fileRef = E7D8C30B25ACBE1E00F73532 /* getPokeApiSpecies.json */; };
+		E7D8C39A25ACF8C800F73532 /* getPokemonResource.json in Resources */ = {isa = PBXBuildFile; fileRef = E7D8C31325ACD3C400F73532 /* getPokemonResource.json */; };
+		E7D8C39B25ACF8C800F73532 /* ShakespeareTranslatorAPITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8C31825ACE3AC00F73532 /* ShakespeareTranslatorAPITest.swift */; };
+		E7D8C39C25ACF8C800F73532 /* shakespeareResult.json in Resources */ = {isa = PBXBuildFile; fileRef = E7D8C31C25ACE84100F73532 /* shakespeareResult.json */; };
+		E7D8C39D25ACF91A00F73532 /* PokemonToShackespearean.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8C30525ACABE000F73532 /* PokemonToShackespearean.swift */; };
+		E7D8C39E25ACF92200F73532 /* ShakespeareResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8C31A25ACE7D200F73532 /* ShakespeareResult.swift */; };
+		E7D8C39F25ACF92200F73532 /* ShakespeareTranslatorAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8C31625ACE38400F73532 /* ShakespeareTranslatorAPI.swift */; };
+		E7D8C3A025ACF92700F73532 /* PokeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8C30725ACB00E00F73532 /* PokeApi.swift */; };
+		E7D8C3A125ACF92700F73532 /* PokemonSpecies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8C30F25ACC02A00F73532 /* PokemonSpecies.swift */; };
+		E7D8C3A225ACF92700F73532 /* PokemonResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8C31125ACD2A000F73532 /* PokemonResource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7D8C38A25ACF84700F73532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D8C2E225ACA9AE00F73532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7D8C37F25ACF84700F73532;
+			remoteInfo = PokemonToShakespeareanKit_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7D8C2EE25ACA9AF00F73532 /* PokemonToShakespeareanKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PokemonToShakespeareanKit.h; sourceTree = "<group>"; };
+		E7D8C2EF25ACA9AF00F73532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D8C2F425ACA9AF00F73532 /* PokemonToShakespeareanKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonToShakespeareanKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D8C2F925ACA9AF00F73532 /* PokemonToShakespeareanKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonToShakespeareanKitTests.swift; sourceTree = "<group>"; };
+		E7D8C2FB25ACA9AF00F73532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D8C30525ACABE000F73532 /* PokemonToShackespearean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonToShackespearean.swift; sourceTree = "<group>"; };
+		E7D8C30725ACB00E00F73532 /* PokeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeApi.swift; sourceTree = "<group>"; };
+		E7D8C30925ACB02800F73532 /* PokeApiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeApiTest.swift; sourceTree = "<group>"; };
+		E7D8C30B25ACBE1E00F73532 /* getPokeApiSpecies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = getPokeApiSpecies.json; sourceTree = "<group>"; };
+		E7D8C30F25ACC02A00F73532 /* PokemonSpecies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSpecies.swift; sourceTree = "<group>"; };
+		E7D8C31125ACD2A000F73532 /* PokemonResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonResource.swift; sourceTree = "<group>"; };
+		E7D8C31325ACD3C400F73532 /* getPokemonResource.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = getPokemonResource.json; sourceTree = "<group>"; };
+		E7D8C31625ACE38400F73532 /* ShakespeareTranslatorAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakespeareTranslatorAPI.swift; sourceTree = "<group>"; };
+		E7D8C31825ACE3AC00F73532 /* ShakespeareTranslatorAPITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakespeareTranslatorAPITest.swift; sourceTree = "<group>"; };
+		E7D8C31A25ACE7D200F73532 /* ShakespeareResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakespeareResult.swift; sourceTree = "<group>"; };
+		E7D8C31C25ACE84100F73532 /* shakespeareResult.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = shakespeareResult.json; sourceTree = "<group>"; };
+		E7D8C38025ACF84700F73532 /* PokemonToShakespeareanKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PokemonToShakespeareanKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D8C38825ACF84700F73532 /* PokemonToShakespeareanKit_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonToShakespeareanKit_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7D8C2F125ACA9AF00F73532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D8C37D25ACF84700F73532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D8C38525ACF84700F73532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D8C38925ACF84700F73532 /* PokemonToShakespeareanKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7D8C2E125ACA9AE00F73532 = {
+			isa = PBXGroup;
+			children = (
+				E7D8C2ED25ACA9AF00F73532 /* PokemonToShakespeareanKit */,
+				E7D8C2F825ACA9AF00F73532 /* PokemonToShakespeareanKitTests */,
+				E7D8C2EC25ACA9AF00F73532 /* Products */,
+				E7D8C37225ACF51D00F73532 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7D8C2EC25ACA9AF00F73532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7D8C2F425ACA9AF00F73532 /* PokemonToShakespeareanKitTests.xctest */,
+				E7D8C38025ACF84700F73532 /* PokemonToShakespeareanKit.framework */,
+				E7D8C38825ACF84700F73532 /* PokemonToShakespeareanKit_iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7D8C2ED25ACA9AF00F73532 /* PokemonToShakespeareanKit */ = {
+			isa = PBXGroup;
+			children = (
+				E7D8C2EE25ACA9AF00F73532 /* PokemonToShakespeareanKit.h */,
+				E7D8C2EF25ACA9AF00F73532 /* Info.plist */,
+				E7D8C30525ACABE000F73532 /* PokemonToShackespearean.swift */,
+				E7D8C31E25ACF0E700F73532 /* ShakespeareTranslator */,
+				E7D8C31525ACE2E600F73532 /* PokeApi */,
+			);
+			path = PokemonToShakespeareanKit;
+			sourceTree = "<group>";
+		};
+		E7D8C2F825ACA9AF00F73532 /* PokemonToShakespeareanKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7D8C2FB25ACA9AF00F73532 /* Info.plist */,
+				E7D8C2F925ACA9AF00F73532 /* PokemonToShakespeareanKitTests.swift */,
+				E7D8C30925ACB02800F73532 /* PokeApiTest.swift */,
+				E7D8C30B25ACBE1E00F73532 /* getPokeApiSpecies.json */,
+				E7D8C31325ACD3C400F73532 /* getPokemonResource.json */,
+				E7D8C31825ACE3AC00F73532 /* ShakespeareTranslatorAPITest.swift */,
+				E7D8C31C25ACE84100F73532 /* shakespeareResult.json */,
+			);
+			path = PokemonToShakespeareanKitTests;
+			sourceTree = "<group>";
+		};
+		E7D8C31525ACE2E600F73532 /* PokeApi */ = {
+			isa = PBXGroup;
+			children = (
+				E7D8C30725ACB00E00F73532 /* PokeApi.swift */,
+				E7D8C30F25ACC02A00F73532 /* PokemonSpecies.swift */,
+				E7D8C31125ACD2A000F73532 /* PokemonResource.swift */,
+			);
+			path = PokeApi;
+			sourceTree = "<group>";
+		};
+		E7D8C31E25ACF0E700F73532 /* ShakespeareTranslator */ = {
+			isa = PBXGroup;
+			children = (
+				E7D8C31A25ACE7D200F73532 /* ShakespeareResult.swift */,
+				E7D8C31625ACE38400F73532 /* ShakespeareTranslatorAPI.swift */,
+			);
+			path = ShakespeareTranslator;
+			sourceTree = "<group>";
+		};
+		E7D8C37225ACF51D00F73532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E7D8C37B25ACF84700F73532 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E7D8C2F325ACA9AF00F73532 /* PokemonToShakespeareanKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D8C30225ACA9AF00F73532 /* Build configuration list for PBXNativeTarget "PokemonToShakespeareanKitTests" */;
+			buildPhases = (
+				E7D8C2F025ACA9AF00F73532 /* Sources */,
+				E7D8C2F125ACA9AF00F73532 /* Frameworks */,
+				E7D8C2F225ACA9AF00F73532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonToShakespeareanKitTests;
+			productName = PokemonToShakespeareanKitTests;
+			productReference = E7D8C2F425ACA9AF00F73532 /* PokemonToShakespeareanKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7D8C37F25ACF84700F73532 /* PokemonToShakespeareanKit_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D8C39125ACF84700F73532 /* Build configuration list for PBXNativeTarget "PokemonToShakespeareanKit_iOS" */;
+			buildPhases = (
+				E7D8C37B25ACF84700F73532 /* Headers */,
+				E7D8C37C25ACF84700F73532 /* Sources */,
+				E7D8C37D25ACF84700F73532 /* Frameworks */,
+				E7D8C37E25ACF84700F73532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonToShakespeareanKit_iOS;
+			productName = PokemonToShakespeareanKit_iOS;
+			productReference = E7D8C38025ACF84700F73532 /* PokemonToShakespeareanKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7D8C38725ACF84700F73532 /* PokemonToShakespeareanKit_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D8C39425ACF84700F73532 /* Build configuration list for PBXNativeTarget "PokemonToShakespeareanKit_iOSTests" */;
+			buildPhases = (
+				E7D8C38425ACF84700F73532 /* Sources */,
+				E7D8C38525ACF84700F73532 /* Frameworks */,
+				E7D8C38625ACF84700F73532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7D8C38B25ACF84700F73532 /* PBXTargetDependency */,
+			);
+			name = PokemonToShakespeareanKit_iOSTests;
+			productName = PokemonToShakespeareanKit_iOSTests;
+			productReference = E7D8C38825ACF84700F73532 /* PokemonToShakespeareanKit_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7D8C2E225ACA9AE00F73532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = zip520123;
+				TargetAttributes = {
+					E7D8C2F325ACA9AF00F73532 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					E7D8C37F25ACF84700F73532 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					E7D8C38725ACF84700F73532 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E7D8C2E525ACA9AE00F73532 /* Build configuration list for PBXProject "PokemonToShakespeareanKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7D8C2E125ACA9AE00F73532;
+			productRefGroup = E7D8C2EC25ACA9AF00F73532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7D8C2F325ACA9AF00F73532 /* PokemonToShakespeareanKitTests */,
+				E7D8C37F25ACF84700F73532 /* PokemonToShakespeareanKit_iOS */,
+				E7D8C38725ACF84700F73532 /* PokemonToShakespeareanKit_iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7D8C2F225ACA9AF00F73532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D8C31425ACD3C400F73532 /* getPokemonResource.json in Resources */,
+				E7D8C30C25ACBE1E00F73532 /* getPokeApiSpecies.json in Resources */,
+				E7D8C31D25ACE84100F73532 /* shakespeareResult.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D8C37E25ACF84700F73532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D8C38625ACF84700F73532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D8C39A25ACF8C800F73532 /* getPokemonResource.json in Resources */,
+				E7D8C39925ACF8C800F73532 /* getPokeApiSpecies.json in Resources */,
+				E7D8C39C25ACF8C800F73532 /* shakespeareResult.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7D8C2F025ACA9AF00F73532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D8C2FA25ACA9AF00F73532 /* PokemonToShakespeareanKitTests.swift in Sources */,
+				E7D8C31925ACE3AC00F73532 /* ShakespeareTranslatorAPITest.swift in Sources */,
+				E7D8C30A25ACB02800F73532 /* PokeApiTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D8C37C25ACF84700F73532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D8C39D25ACF91A00F73532 /* PokemonToShackespearean.swift in Sources */,
+				E7D8C3A025ACF92700F73532 /* PokeApi.swift in Sources */,
+				E7D8C39E25ACF92200F73532 /* ShakespeareResult.swift in Sources */,
+				E7D8C3A125ACF92700F73532 /* PokemonSpecies.swift in Sources */,
+				E7D8C39F25ACF92200F73532 /* ShakespeareTranslatorAPI.swift in Sources */,
+				E7D8C3A225ACF92700F73532 /* PokemonResource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D8C38425ACF84700F73532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D8C39725ACF8C800F73532 /* PokemonToShakespeareanKitTests.swift in Sources */,
+				E7D8C39B25ACF8C800F73532 /* ShakespeareTranslatorAPITest.swift in Sources */,
+				E7D8C39825ACF8C800F73532 /* PokeApiTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7D8C38B25ACF84700F73532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7D8C37F25ACF84700F73532 /* PokemonToShakespeareanKit_iOS */;
+			targetProxy = E7D8C38A25ACF84700F73532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E7D8C2FD25ACA9AF00F73532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7D8C2FE25ACA9AF00F73532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7D8C30325ACA9AF00F73532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokemonToShakespeareanKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zip520123.PokemonToShakespeareanKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E7D8C30425ACA9AF00F73532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokemonToShakespeareanKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zip520123.PokemonToShakespeareanKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E7D8C39225ACF84700F73532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PokemonToShakespeareanKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zip520123.PokemonToShakespeareanKit-iOS";
+				PRODUCT_NAME = PokemonToShakespeareanKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7D8C39325ACF84700F73532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PokemonToShakespeareanKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zip520123.PokemonToShakespeareanKit-iOS";
+				PRODUCT_NAME = PokemonToShakespeareanKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7D8C39525ACF84700F73532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PokemonToShakespeareanKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zip520123.PokemonToShakespeareanKit-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7D8C39625ACF84700F73532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PokemonToShakespeareanKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zip520123.PokemonToShakespeareanKit-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7D8C2E525ACA9AE00F73532 /* Build configuration list for PBXProject "PokemonToShakespeareanKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D8C2FD25ACA9AF00F73532 /* Debug */,
+				E7D8C2FE25ACA9AF00F73532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D8C30225ACA9AF00F73532 /* Build configuration list for PBXNativeTarget "PokemonToShakespeareanKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D8C30325ACA9AF00F73532 /* Debug */,
+				E7D8C30425ACA9AF00F73532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D8C39125ACF84700F73532 /* Build configuration list for PBXNativeTarget "PokemonToShakespeareanKit_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D8C39225ACF84700F73532 /* Debug */,
+				E7D8C39325ACF84700F73532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D8C39425ACF84700F73532 /* Build configuration list for PBXNativeTarget "PokemonToShakespeareanKit_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D8C39525ACF84700F73532 /* Debug */,
+				E7D8C39625ACF84700F73532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7D8C2E225ACA9AE00F73532 /* Project object */;
+}
