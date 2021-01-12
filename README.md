@@ -1,4 +1,4 @@
-# Pokemon To Shakespearean Kit
+# Pokemon To Shakespearean Kit [![Build Status](https://travis-ci.com/zip520123/PokemonToShakespeareanApp.svg?branch=main)](https://travis-ci.com/zip520123/PokemonToShakespeareanApp)
 ## This kit provide 3 functions intergrate <strong> PokéAPI </strong> and <strong>Shakespeare translator API</strong>
 <br>
 
